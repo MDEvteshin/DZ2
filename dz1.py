@@ -29,3 +29,10 @@
 #                 print(f'Numbers which satisfying both conditions are {x, y}')
 # if a == 0:
 #     print('The solution is impossible')
+
+# Задача 14: Требуется вывести все целые степени двойки (т.е. числа вида 2k), не превосходящие числа N.
+# n = int(input("Введите число для которого хотите узнать целые степени двойки: "))
+# x = 0
+# while 2 ** x <= n:
+#     print(f'2 в степени {x} = {2 ** x}')
+#     x += 1
